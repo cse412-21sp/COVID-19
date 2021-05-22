@@ -6,7 +6,10 @@ Ziyi Bai, Haley Chiang, Winni Li, Mingyu Zhong.
 
 ### Contribution Statements
 
-Add individual contribution statements here.
+Ziyi Bai is responsible for the importance and effect of the COVID event.
+Mingyu Zhong is responsible for the COVID test, cases and death analysis.
+Haley Chiang is responsible for the analysis of the causes of the differenes in regions across the world. 
+Winni Li is responsible for the COVID vaccination analysis. 
 
 ## Project Proposal Abstract
 

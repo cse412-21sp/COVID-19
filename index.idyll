@@ -56,12 +56,20 @@ Since Gross Domestic Product(GDP) per capita and Human Development Index (HDI) a
 the difference between countries such as living standard, we would like to know about the relationship between 
 the number of cases and GDP/HDI. 
 
+![hand_policy](./static/images/hand_gdp.png)
+
+![hand_policy](./static/images/static_hdi.png)
+
 ### Population density vs. Total COVID-19 cases
+
+![hand_policy](./static/images/static_popden.png)
 
 ### Government policies 
 Goverment policies plays a critical role in public management and in reducing the spread of coronavirus. 
 Stay-at-home restrictions and Face covering restrictions are the two widely adapted policies. Therefore, 
 we will focus on these two restrictions in this section to compare the government policies of US, China, and UK.
+
+![hand_policy](./static/images/hand_policy.png)
 
 [/FullWidth]
 

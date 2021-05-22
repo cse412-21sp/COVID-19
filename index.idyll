@@ -37,9 +37,9 @@ Through the visualizations of the COVID data, we will analyze the importance and
 
 [FullWidth className:'partb']
 ## Covid Cases & Death Graphs (New & Total)
-TestB
-
 The data below is the number of confirmed cases and death cases. 
+
+![hand_policy](./static/images/hand_overview.png)
 
 [/FullWidth]
 

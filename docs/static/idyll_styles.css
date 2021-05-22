@@ -1275,50 +1275,35 @@ img {
 
 
 
-.overview{
+.content {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 400px;
-  padding-right: 400px;
+  padding-left: 18%;
+  padding-right: 18%;
+  font-size: larger;
+}
+
+.overview{
+  
 }
 
 
 .parta{
-  background: grey;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 400px;
-  padding-right: 400px;
+  background: rgb(190, 190, 190);
 }
 
 .partb{
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 400px;
-  padding-right: 400px;
 }
 
 .partc{
-  background: grey;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 400px;
-  padding-right: 400px;
+  background: rgb(190, 190, 190);
 }
 
 .partd{
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 400px;
-  padding-right: 400px;
 }
 
 .endpart{
-  background: grey;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 400px;
-  padding-right: 400px;
+  background: rgb(190, 190, 190);
 }
 
 .d3-component svg {

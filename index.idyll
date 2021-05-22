@@ -70,11 +70,34 @@ we will focus on these two restrictions in this section to compare the governmen
 
 ### Type of Vaccination
 
+mRNA
+- mRNA vaccines are a new type of vaccine to protect against infectious diseases.
+- MRNA vaccines teach our cells how to make a protein—or even just a piece of a protein—that triggers an immune response inside our bodies.
+- The benefit of mRNA vaccines, like all vaccines, is those vaccinated gain protection without ever having to risk the serious consequences of getting sick with COVID-19.
 
-### Efficacy and Side effect
+Inactivated
+- Inactivated vaccines use the killed version of the germ that causes a disease.
+- Inactivated vaccines usually don’t provide immunity (protection) that’s as strong as live vaccines. So people may need several doses over time (booster shots) in order to get ongoing immunity against diseases.
 
+### Efficiency
+
+mRNA
+Data from 43,448 participants, half of whom received BNT162b2 and half of whom received placebo, 
+showed that the vaccine candidate was well tolerated and demonstrated 95% efficacy in preventing COVID-19 in those without prior infection 7 days or more after the second dose.
+
+Inactivated
+Based on 144 participants in the phase one trial and 600 in the phase two trial - meant the vaccine was "suitable for emergency use".
+
+### Side effect
+
+![side_effect](./static/images/SE_chart.png)
 
 ### State Cases & Vaccination Rate
+
+Visualization Design: A map of United States 
+Interaction: Show the Total doses given, and the number of people fully vaccinated, and the percentage of people fully vaccinated.
+![map](./static/images/map.png)
+
 [/FullWidth]
 
 [FullWidth className:'endpart']

@@ -1289,21 +1289,21 @@ img {
 
 
 .parta{
-  background: rgb(190, 190, 190);
+  background: lightgray;
 }
 
 .partb{
 }
 
 .partc{
-  background: rgb(190, 190, 190);
+  background: lightgray;
 }
 
 .partd{
 }
 
 .endpart{
-  background: rgb(190, 190, 190);
+  background: lightgray;
 }
 
 .d3-component svg {

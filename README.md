@@ -2,7 +2,7 @@
 
 ## Team Members
 
-Place your team member names here.
+Ziyi Bai, Haley Chiang, Winni Li, Mingyu Zhong.
 
 ### Contribution Statements
 
@@ -10,8 +10,9 @@ Add individual contribution statements here.
 
 ## Project Proposal Abstract
 
-This is the space for you to add a description for your project.
+We would like to explore the number of COVID cases, the number of the vaccine allocation and its effectiveness, the number of breathing machine. Our goal is to communicate the continuously updated COVID related data visually to the audience.
 
+# Software Instructions:
 ## Getting Started
 
 This template is a starting place for your project. Update the header information to include the relevant details for your project, and then feel free to mix and match the visualization and layout techniques introduced here for your own narrative.

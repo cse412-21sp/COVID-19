@@ -13,6 +13,7 @@
 
 [FullWidth className:'content overview']
 
+
 # Overview
 Through the visualizations of the COVID data, we will analyze the importance and the impact of COVID in different regions around the world.
 
@@ -67,6 +68,10 @@ The data below is the number of confirmed cases and death cases.
 From the above graphs, we can see that there is clearly a distinction between the number of confirmed cases 
 and death cases for different region. In this section, we would like to explore and identify the possible 
 causes of the difference.
+
+[div className:'partcgraph']
+[ObservableEmbed link:"https://observablehq.com/embed/@patronum/brushable-parallel-coordinates?cells=viewof+keyz%2Clegend%2Cviewof+selection" width:"100%" height:"831"/]
+[/div]
 
 ### GDP vs. COVID-19 cases & HDI vs. Total COVID-19 cases
 Since Gross Domestic Product(GDP) per capita and Human Development Index (HDI) are usually used to measure 

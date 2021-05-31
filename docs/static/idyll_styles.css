@@ -1293,7 +1293,17 @@ img {
 }
 
 .partb{
+  padding-left: 8%;
+  padding-right: 8%;
 }
+
+.partbWord1{
+  padding-right: 10%;
+}
+
+/* .partbGraph1{
+  padding-left: 3%;
+} */ 
 
 .partc{
   background: lightgray;

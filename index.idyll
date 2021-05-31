@@ -56,6 +56,37 @@ From observing the two line chart which represents the relationship between deve
 # Covid Cases & Death Graphs (New & Total)
 The data below is the number of confirmed cases and death cases. 
 
+[div className:'partbCase']
+[Float position:"left" className:'partbWord1' width:"35%"]
+//
+//
+//
+//
+Description text for Cases Description text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for Cases
+[/Float]
+[Float position:"right" className:'partbGraph1' width:"65%"]
+[TableauEmbed link:"https://public.tableau.com/views/FinalProjectSection2/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" 
+width:"100%" height:"835"/]
+[/Float]
+
+
+
+
+[div className:'partbDeath']
+[/div]
+
+[Float position:"right" className:'partbGraph2' width:"65%"]
+[TableauEmbed link:"https://public.tableau.com/views/FinalProjectSection2Death/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link" 
+width:"100%" height:"835"/]
+[/Float]
+[Float position:"left" className:'partbWord2' width:"35%"]
+//
+//
+//
+//
+Description text for Cases Description text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for Cases
+[/Float]
+[/div]
 ![hand_policy](./static/images/hand_overview.png)
 
 [/FullWidth]

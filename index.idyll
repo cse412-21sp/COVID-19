@@ -46,9 +46,6 @@ From the above graph, China is absolutely an exception from our guess, so indeed
 ![pic6](./static/images/parta/pic6.png)
 From observing the two line chart which represents the relationship between development of GDP and number of deaths and number of confirmed cases respectively, we can see that there is a close relationship as well. 
 [Data Source](https://ourworldindata.org/covid-cases)
-
-
-
 ### Psychological issue caused by lock down
 
 [/FullWidth]
@@ -94,22 +91,21 @@ Description text for Cases Description text for CasesDescription text for CasesD
 
 
 [FullWidth className:'content partc']
-# Factors that related COVID-19 outcomes
+# Factors related to COVID-19 outcomes
+From the graphs above, we can see that there is a clear distinction between the number of confirmed cases and death cases for different region. 
+Take Gross Domestic Product(GDP) per capita, Population density, Human Development Index (HDI), life expectancy, and the number of people who 
+are aged 65 or older as possible social factors that might affect the outcome of COVID-19 cases,
 
-From the graphs above, we can see that there is a clear distinction between the number of confirmed cases 
-and death cases for different region. Take Gross Domestic Product(GDP) per capita, Population density, Human Development Index (HDI),
-life_expectancy, and the number of people who are aged 65 or older as possible social factors that might affect the outcome of COVID-19 cases,
-we will explore how does these factors correlate with COVID-19 cases.
 
 //
 // visualization design rationale
-// 1. data cleaning
+// data cleaning
 
-/* We first filtered out the rows with null values and outliers in order to visualize the trend more clearly.
-Since the values of dimensions vary a lot, we normalized our data by minusing the mean value 
-of each variable from the true value and divided by the standard deviation.
-*/
+// We first filtered out the rows with null values and outliers in order to visualize the trend more clearly.
+// Since the values of dimensions vary a lot, we normalized our data by minusing the mean value 
+// of each variable from the true value and divided by the standard deviation.
 //
+
 ### GDP
 Within one standard deviation of average GDP across 174 countries in our cleaned dataset, GDP and the number of total cases and the number of total deaths
 shows a positive correlation. Beyond one standard deviation, in general, as GDP increases the number of total cases increases as well as the number of 
@@ -127,7 +123,7 @@ Generally, as the number of people who are aged 65 or older increases, the numbe
 have the number of people who are aged 65 or older 1.5 standard deviation above the mean with the number of death below the mean have GDP above the mean.
 
 ### Vaccinations
-Observing the location that have total vaccinations 0.5 standard deviation above the mean, we notice that most of the locations have GDP, HDI and life life_expectancy 
+Observing the location that have total vaccinations 0.5 standard deviation above the mean, we notice that most of the locations have GDP, HDI and life expectancy 
 above the mean. Some of those locations might have relatively high number of total cases, but most of them have relatively low number of total deaths.
 
 // probably would be better to display as a floated graph
@@ -136,29 +132,30 @@ above the mean. Some of those locations might have relatively high number of tot
 [/div]
 
 // refereces 
-Data source reference to [COVID 19](https://ourworldindata.org/covid-cases)
-dataset from "Our world in data" in our visualization. Data was normalized. 
-The visualization design above reference to "Parallel Coordinates" Visualization by Mike Bostock in Observable notebook. 
+Data source reference to [COVID-19 dataset](https://ourworldindata.org/covid-cases) from Our world in data in our visualization. Data was normalized. 
+The visualization design above reference to Parallel Coordinates Visualization by Mike Bostock in Observable notebook. 
 
+// delete start
+// Since Gross Domestic Product(GDP) per capita and Human Development Index (HDI) are usually used to measure 
+// the difference between countries such as living standard, we would like to know about the relationship between 
+// the number of cases and GDP/HDI. 
 
-Since Gross Domestic Product(GDP) per capita and Human Development Index (HDI) are usually used to measure 
-the difference between countries such as living standard, we would like to know about the relationship between 
-the number of cases and GDP/HDI. 
+// ![hand_policy](./static/images/hand_gdp.png)
 
-![hand_policy](./static/images/hand_gdp.png)
+// ![hand_policy](./static/images/static_hdi.png)
 
-![hand_policy](./static/images/static_hdi.png)
+// ## Population density vs. Total COVID-19 cases
 
-## Population density vs. Total COVID-19 cases
+// ![hand_policy](./static/images/static_popden.png)
 
-![hand_policy](./static/images/static_popden.png)
+// ## Government policies 
+// Goverment policies plays a critical role in public management and in reducing the spread of coronavirus. 
+// Stay-at-home restrictions and Face covering restrictions are the two widely adapted policies. Therefore, 
+// we will focus on these two restrictions in this section to compare the government policies of US, China, and UK.
 
-## Government policies 
-Goverment policies plays a critical role in public management and in reducing the spread of coronavirus. 
-Stay-at-home restrictions and Face covering restrictions are the two widely adapted policies. Therefore, 
-we will focus on these two restrictions in this section to compare the government policies of US, China, and UK.
+// ![hand_policy](./static/images/hand_policy.png) 
 
-![hand_policy](./static/images/hand_policy.png)
+// delete end
 
 [/FullWidth]
 

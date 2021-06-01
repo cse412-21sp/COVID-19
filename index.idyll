@@ -94,17 +94,53 @@ Description text for Cases Description text for CasesDescription text for CasesD
 
 
 [FullWidth className:'content partc']
-# What are the possible causes of the difference between the regional cases?
+# Factors that related COVID-19 outcomes
 
-From the above graphs, we can see that there is clearly a distinction between the number of confirmed cases 
-and death cases for different region. In this section, we would like to explore and identify the possible 
-causes of the difference.
+From the graphs above, we can see that there is a clear distinction between the number of confirmed cases 
+and death cases for different region. Take Gross Domestic Product(GDP) per capita, Population density, Human Development Index (HDI),
+life_expectancy, and the number of people who are aged 65 or older as possible social factors that might affect the outcome of COVID-19 cases,
+we will explore how does these factors correlate with COVID-19 cases.
 
+//
+// visualization design rationale
+// 1. data cleaning
+
+/* We first filtered out the rows with null values and outliers in order to visualize the trend more clearly.
+Since the values of dimensions vary a lot, we normalized our data by minusing the mean value 
+of each variable from the true value and divided by the standard deviation.
+*/
+//
+### GDP
+Within one standard deviation of average GDP across 174 countries in our cleaned dataset, GDP and the number of total cases and the number of total deaths
+shows a positive correlation. Beyond one standard deviation, in general, as GDP increases the number of total cases increases as well as the number of 
+total deaths.
+
+### Population density 
+Population density is positively correlate with the total cases and the total deaths for each location one standard deviation below mean population density.
+The total cases and total deaths shows a decreasing trend as the population density beyond the mean increasing.
+
+### HDI
+In general, HDI is positively correlated with the number of total cases and the number of total deaths.
+
+### The number of people who are aged 65 or older
+Generally, as the number of people who are aged 65 or older increases, the number of total cases increases. It is interesting to note that locations that 
+have the number of people who are aged 65 or older 1.5 standard deviation above the mean with the number of death below the mean have GDP above the mean.
+
+### Vaccinations
+Observing the location that have total vaccinations 0.5 standard deviation above the mean, we notice that most of the locations have GDP, HDI and life life_expectancy 
+above the mean. Some of those locations might have relatively high number of total cases, but most of them have relatively low number of total deaths.
+
+// probably would be better to display as a floated graph
 [div className:'partcgraph']
 [ObservableEmbed link:"https://observablehq.com/embed/@patronum/brushable-parallel-coordinates?cells=viewof+keyz%2Clegend%2Cviewof+selection" width:"100%" height:"831"/]
 [/div]
 
-### GDP vs. COVID-19 cases & HDI vs. Total COVID-19 cases
+// refereces 
+Data source reference to [COVID 19](https://ourworldindata.org/covid-cases)
+dataset from "Our world in data" in our visualization. Data was normalized. 
+The visualization design above reference to "Parallel Coordinates" Visualization by Mike Bostock in Observable notebook. 
+
+
 Since Gross Domestic Product(GDP) per capita and Human Development Index (HDI) are usually used to measure 
 the difference between countries such as living standard, we would like to know about the relationship between 
 the number of cases and GDP/HDI. 

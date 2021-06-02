@@ -3,7 +3,7 @@
 [Header
   fullWidth:true
   title:"COVID-19 Data Analysis"
-  subtitle:"An exploration of COVID-19 data of US, China, and UK"
+  subtitle:"An exploration of COVID-19 data of the world"
   author:"Ziyi Bai, Haley Chiang, Winni Li, Mingyu Zhong"
   date:"May 21, 2021"
   background:"#33333f"
@@ -128,7 +128,7 @@ Description text for Cases Description text for CasesDescription text for CasesD
 # Factors related to COVID-19 outcomes
 From the graphs above, we can see that there is a clear distinction between the number of confirmed cases and death cases for different region. 
 Take Gross Domestic Product(GDP) per capita, Population density, Human Development Index (HDI), life expectancy, and the number of people who 
-are aged 65 or older as possible social factors that might affect the outcome of COVID-19 cases,
+are aged 65 or older as possible social factors that might affect the outcome of COVID-19 cases.
 
 
 //

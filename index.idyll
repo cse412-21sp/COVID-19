@@ -12,9 +12,9 @@
 
 [FullWidth className:'presentation']
 [TableauEmbed link:"https://public.tableau.com/views/FinalProjectSection2/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" 
-width:"98%" height:"835"/]
+width:"95%" height:"835"/]
 [TableauEmbed link:"https://public.tableau.com/views/FinalProjectSection2Death/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link" 
-width:"98%" height:"835"/]
+width:"95%" height:"835"/]
 [/FullWidth]
 
 
@@ -30,6 +30,10 @@ width:"96%" height:"835"/]
 
 [FullWidth className:'presentation']
 [ObservableEmbed link:"https://observablehq.com/embed/@patronum/brushable-parallel-coordinates?cells=viewof+keyz%2Clegend%2Cviewof+selection" width:"100%" height:"831"/]
+[/FullWidth]
+
+[FullWidth className:'presentationptd lightgraybg']
+![side_effect](./static/images/SE_chart.png)
 [/FullWidth]
 
 [FullWidth className:'presentation lightgraybg']

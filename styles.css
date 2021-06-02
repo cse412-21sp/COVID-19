@@ -1,4 +1,4 @@
-.content {
+.content{
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 18%;
@@ -7,9 +7,20 @@
 }
 
 .overview{
-  
+  padding-top: 1000px;
 }
 
+.presentation{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 22.5%;
+  padding-right: 22.5%;
+  font-size: larger;
+}
+
+.lightgraybg{
+  background: lightgray;
+}
 
 .parta{
   background: lightgray;

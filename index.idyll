@@ -12,9 +12,9 @@
 
 [FullWidth className:'presentation']
 [TableauEmbed link:"https://public.tableau.com/views/FinalProjectSection2/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" 
-width:"95%" height:"835"/]
+width:"1010" height:"835"/]
 [TableauEmbed link:"https://public.tableau.com/views/FinalProjectSection2Death/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link" 
-width:"95%" height:"835"/]
+width:"935" height:"835"/]
 [/FullWidth]
 
 

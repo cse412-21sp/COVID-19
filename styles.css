@@ -1,21 +1,47 @@
 .content{
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 18%;
-  padding-right: 18%;
+  padding-left: 15%;
+  padding-right: 15%;
   font-size: larger;
 }
+
+.menu{
+  font-size: 25px;
+  font-family: Sans-serif;
+  font-weight: 700;
+  line-height: 2.5;
+  /*border: 1px black;*/
+  position: fixed;
+  top: 45%;  /* 0px from the top */
+  left: 0; /* 0px from the left */
+  /* width: 100%; same as parent, useful for spanning the page */
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 2%;
+}
+
+a:link {
+  color: rgb(184, 19, 19);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(180, 79, 48);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: rgba(180, 179, 180, 0.945);
+}
+
 
 .overview{
-  padding-top: 1000px;
-}
-
-.presentation{
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 13%;
-  padding-right: 13%;
-  font-size: larger;
+  
 }
 
 .lightgraybg{
@@ -50,15 +76,7 @@
 .partd{
 }
 
-.presentationptd{
-  padding-top: 100px;
-  padding-bottom: 0px;
-  padding-left: 13%;
-  padding-right: 13%;
-  font-size: larger;
-}
-
-.endpart{
+.conclusion{
   background: lightgray;
 }
 

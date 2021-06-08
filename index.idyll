@@ -239,9 +239,9 @@ For both of the vaccine types, people may get Tiredness; Headache; Muscle pain; 
 
 Visualization Design: A map of United States.
 
-Interaction with color dots shows the total doses given, the number of people fully vaccinated, and the percentage of people fully vaccinated by state.
-[TableauEmbed link:"https://public.tableau.com/views/Book4_16225226793100/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" 
-width:"100%" height:"900"/]
+Interaction with blue dots shows the total doses given, the number of people fully vaccinated, and the percentage of people fully vaccinated by state.
+[TableauEmbed link:"https://public.tableau.com/views/Book11_16231607971860/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" 
+width:"100%" height:"600"/]
 
 In the United States, the total vaccination doses given is 294M, the population who are fully vaccinated is 135M, and the percentage of the population fully vaccinated is 41%. 
 

@@ -1275,24 +1275,80 @@ img {
 
 
 
+* { 
+  box-sizing: border-box; 
+}
+
+
+.flex-container { /* my flexbox container class */
+  text-indent: 0px;
+  display: flex;
+  margin-left:5%;
+  margin-right:5%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.flex-item {
+  flex-grow: 1; /* get 1 share of extra space */
+  flex-shrink: 0; /* do not shrink if items overflow container */
+  flex-basis: 50%; /* take up 33% of parent initially */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.twomaps{  
+  background-color: lightgray;
+}
+
+.twobars{
+  padding-top: 0px;
+  margin-top: 0px;
+  background-color: lightgray;  
+  padding-bottom: 65px;
+}
+
+.article-header{  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .content{
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 65px;
+  padding-bottom: 65px;
   padding-left: 15%;
   padding-right: 15%;
   line-height: 2;
-  font-family: Sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: larger;
+  text-indent: 50px;
+}
+
+.parta_top{
+  margin-bottom: 0px;
+}
+
+.parta_bottom{
+  margin-bottom: 0px;
+}
+
+.overview {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.annotated-text{  
+  text-indent: 0px;
 }
 
 h1 {
   margin-bottom: 15px;
   padding-top: 0px;
+  text-indent: 0px;
 }
 
 h2 {
   margin-top: 30px;
   margin-bottom: 15px;
+  text-indent: 0px;
 }
 
 .menu{
@@ -1339,11 +1395,6 @@ a:hover {
   background: lightgray;
 }
 
-.partb{
-  padding-left: 8%;
-  padding-right: 8%;
-}
-
 .partbWord1{
   padding-right: 10%;
 }
@@ -1352,12 +1403,13 @@ a:hover {
   padding-left: 3%;
 } */ 
 
-.partc{
-  background: lightgray;
-}
+/* .partc{
+  background: white;
+} */
 
 .partcgraph {
   background: white;
+  text-indent: 0px;
 }
 
 .partd{

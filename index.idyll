@@ -89,7 +89,7 @@ width:"100%" height:"1000"/]
 [TableauEmbed link:"https://public.tableau.com/views/Cse412Homework2covidmapnew/Sheet35?:language=en-US&:display_count=n&:origin=viz_share_link"
 width:"100%" height:"1000"/]
 ## Trend of Cases of Covid 19 around the world
-On the other hand, we take a closer look at what’s a happening during 2020 Covid-19 in this visualization. We focused mainly on China, UK and US since there are more pandemic related issues happening down there. we can see except the beginning of this pandemic eruption, China has been taking incredibly good control of cases  in comparison of USA, and UK. And we observed that although there is an obvious decrement of cases during summer, but unlike SARS which faded away after that, the Covid-19 came back again in a more unstoppable way that leads to a higher peak of new cases. And it started to drop down at the time when vaccine started to come out. Also by comparing the upper graph and lower graph, the number of deaths are almost moving in the same way as the number of new cases, which means Covid-19 has a relatively constant death rate.
+On the other hand, we take a closer look at what’s a happening during 2020 Covid-19 in this visualization. We focused mainly on China, UK and US since there are more pandemic related issues happening down there. we can see except the beginning of this pandemic eruption, China has been taking incredibly good control of cases  in comparison of USA, and UK. And we observed that although there is an obvious decrement of cases during summer, but unlike SARS which faded away after that, the Covid-19 came back again in a more unstoppable way that leads to a higher peak of new cases. And it started to drop down at the time when vaccine started to come out. Also by comparing the upper graph and lower graph(users can do this by dragging mouse to select multiple points in the upper graph, and the corresponding points would appear in the bottom graph), the number of deaths are almost moving in the same way as the number of new cases, which means Covid-19 has a relatively constant death rate.
 [TableauEmbed link:"https://public.tableau.com/views/Cse412Homework2trendnew/Sheet33?:language=en-US&:display_count=n&:origin=viz_share_link" 
 width:"100%" height:"1000"/]
 ## Death of elder group
@@ -223,7 +223,7 @@ width:"100%" height:"900"/]
 
 In the United States, the total vaccinations doses given is 294M, the population who are fully vaccinated is 135M, and the percentage of population fully vaccinated is 41%. 
 
-[TableauEmbed link:"https://public.tableau.com/views/Book6_16231243213150/Sheet1?:language=zh-CN&:display_count=n&:origin=viz_share_link" 
+[TableauEmbed link:"https://public.tableau.com/views/Book7_16231283693800/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" 
 width:"100%" height:"340"/]
 
 Among all the states, Republic of Palau has the highest percentage (68.9%) of population who are fully vaccinated due to the small population base.
@@ -251,6 +251,8 @@ Overview:
 [ol]
   [li][a href:' https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/herd-immunity-and-coronavirus/art-20486808#:~:text=Herd%20immunity%20occurs%20when%20a,just%20those%20who%20are%20immune.']Herd immunity and COVID-19 (coronavirus): What you need to know[/a][/li]
   [li][a href:' https://www.nature.com/articles/d41586-021-00728-2#:~:text=Most%20estimates%20had%20placed%20the,past%20exposure%20to%20the%20virus.']Five reasons why COVID herd immunity is probably impossible[/a][/li]
+  [li][a href:' https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mrna.html']What do you need to know about mRNA vaccines[/a][/li]
+  [li][a href:' https://www.hhs.gov/immunization/basics/types/index.html']What do you need to know about inactivated vaccines[/a][/li]
 [/ol]
 # About Us
 This project was created for the course CSE412.

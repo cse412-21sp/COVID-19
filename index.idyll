@@ -21,6 +21,59 @@
 
 [FullWidth id:'Overview' className:'content overview']
 
+# Overview
+Through the visualizations of the COVID data, we will analyze the importance and the impact of COVID in different regions around the world.
+
+[div className:'OverviewParagraph']
+## COVID New Confirmed Cases
+[TableauEmbed className:'overview_graph' link:"https://public.tableau.com/views/NewConfirmedCases/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" 
+width:"100%" height:"1000"/]
+[/div]
+
+[div className:'OverviewParagraph']
+To make the new cases comparable for the continents at the same scale, the The top graph shows the percentage of new confirmed cases in terms of its population. All continents South America seems like having the cases under controled since the rate of new cases regards its population is converging to a low number. 
+[/div]
+
+[div className:'OverviewParagraph']
+The bottom graph shows the actual cases in number for all continents. The more the cases means there would be a higher chance that the region have a mutated virus. Based on the graph, we would guess that the next mutated virus might be more likely to emerge in South America or Asia. 
+[/div]
+
+
+## Immuned Population 
+[TableauEmbed className:'overview_graph' link:"https://public.tableau.com/views/ProtectedPopulationPercentage/Sheet3?:language=en-US&:display_count=n&:origin=viz_share_link" 
+width:"100%" height:"832"/]
+[div className:'overview_partb']
+Herd immunity happens when a large portion of a community (the herd) is immuned to a disease which makes the spread of disease unlikely. The [Annotation annotation:"If the proportion of the population that is immune to the disease is greater than this threshold, the spread of the disease will decline."]herd immunity threshold[/Annotation] for COVID-19 is at 60–70%, and the population will gain immunity either through vaccinations or past exposure to the virus. The herd immunity threshold would increase if the mutation of the COVID becomes more contagious. 
+[/div]
+[br/]
+[div className:'overview_partb']
+From the Protected Population Percentage graph, North America has the highest percentage in the immuned population which is the sum of the total past infection and fully vaccination groups at approximately 32%, but this is still less than the herd immunity threshold. Also, vaccination is the most efficient way to reach the threshold than the infection by the trend of increasing in the immuned population. 
+[/div]
+
+
+[div className:'OverviewParagraph']
+## COVID New and Total Death Cases
+[TableauEmbed className:'overview_graph' link:"https://public.tableau.com/views/DeathCasesOvertime/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link" 
+width:"100%" height:"900"/]
+[/div]
+
+[div]
+Similarly, to compare all continents at the same scale, both graph are displying the percentage in terms of the population of the continent. The top graph displays two group with similar percentage of total deaths which are also the same two groups of continents from the total cases in percentage of the population graph. It is intriguing that whether the number of death is correlated with the number of cases. We will further explore the correlation between the factors in the later section. 
+[/div]
+[br/]
+[div className:'overview_partc']
+From the Protected Population Percentage graph, North America has the highest percentage in the immuned population which is the sum of the total past infection and fully vaccination groups at approximately 32%, but this is still less than the herd immunity threshold. Also, vaccination is the most efficient way to reach the threshold than the infection by the trend of increasing in the immuned population. 
+[/div]
+[div className:'overview_partc']
+For the numbe of new cases graph on the bottom, we also see the same pattern in the number of new cases in percentage of the population which all continets except South America are decreasing and converging to a low number.
+[/div]
+
+
+[div className:'overview_conclude']
+Thus, in short, it seems like all continents are having the COVID situation under cntroled except South America. 
+[/div]
+
+
 [/FullWidth]
 
 

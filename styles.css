@@ -50,7 +50,7 @@
 }
 
 .parta_bottom{
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .overview {
@@ -135,6 +135,12 @@ a:hover {
 
 .parta{
   background: lightgray;
+}
+
+.parta_fix {
+  background: lightgray;
+  margin-top: 20px;
+  text-indent: 0px;
 }
 
 .partbWord1{

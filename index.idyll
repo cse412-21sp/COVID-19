@@ -6,7 +6,7 @@
   subtitle:"An exploration of COVID-19 data of the world"
   author:"Ziyi Bai, Haley Chiang, Winni Li, Mingyu Zhong"
   date:"June 01, 2021"
-  background: 'url(./static/images/header4.jpg)'
+  background: 'url(./static/images/header4.JPG)'
   color:"#ffffff"
 /]
 
@@ -25,11 +25,11 @@ Through the visualizations of the COVID data, we will analyze the importance and
 [div className:'OverviewParagraph']
 ## COVID New Confirmed Cases
 [TableauEmbed className:'overview_graph' link:"https://public.tableau.com/views/NewConfirmedCases/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" 
-width:"100%" height:"1000"/]
+width:"100%" height:"832"/]
 [/div]
 
 [div className:'OverviewParagraph']
-To make the new cases comparable for the continents at the same scale, the The top graph shows the percentage of new confirmed cases in terms of its population. All continents South America seems like having the cases under controled since the rate of new cases regards its population is converging to a low number. 
+To make the new cases comparable for the continents at the same scale, the top graph shows the percentage of new confirmed cases in terms of its population. All continents South America seems like having the cases under controled since the rate of new cases regards its population is converging to a low number. 
 [/div]
 
 [div className:'OverviewParagraph']
@@ -52,7 +52,7 @@ From the Immuned Population Percentage graph, North America has the highest perc
 [div className:'OverviewParagraph']
 ## COVID New and Total Death Cases
 [TableauEmbed className:'overview_graph' link:"https://public.tableau.com/views/DeathCasesOvertime/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link" 
-width:"100%" height:"900"/]
+width:"100%" height:"832"/]
 [/div]
 
 [div]
@@ -100,8 +100,10 @@ width:"100%" height:"600"/]
 [FullWidth className:'content parta  parta_bottom']
 ## Trend of Cases of Covid 19 around the world
 On the other hand, we take a closer look at what’s a happening during 2020 Covid-19 in this visualization. We focused mainly on China, UK and US since there are more pandemic related issues happening down there. we can see except the beginning of this pandemic eruption, China has been taking incredibly good control of cases  in comparison of USA, and UK. And we observed that although there is an obvious decrement of cases during summer, but unlike SARS which faded away after that, the Covid-19 came back again in a more unstoppable way that leads to a higher peak of new cases. And it started to drop down at the time when vaccine started to come out. Also by comparing the upper graph and lower graph(users can do this by dragging mouse to select multiple points in the upper graph, and the corresponding points would appear in the bottom graph), the number of deaths are almost moving in the same way as the number of new cases, which means Covid-19 has a relatively constant death rate.
+[div className:'parta_fix']
 [TableauEmbed link:"https://public.tableau.com/views/Cse412Homework2trendnew/Sheet33?:language=en-US&:display_count=n&:origin=viz_share_link" 
 width:"100%" height:"1000"/]
+[/div]
 ## Death of elder group
 Now we also wonder how does age contribute to the possibility of getting contagious during this pandemic. Again we picked China, UK and USA to study. We have two bar graphs, the upper one showed the confirmed cases of different age group, and three countries have very similar compositions that is most confirmed cases are from median age group, while the least of cases are from age of 70 or older. The bottom bar graph showed the number of deaths of different age group. Surprisingly, most of deaths are composed of people who are 85 years older and people older than 75 years old has taken around 50 percent of the total deaths while the number of deaths is decreasing rapidly to even zero as the age group getting younger and younger. We conclude that although median age group has much higher number of confirmed cases, the number of deaths of older people are much higher which indicates Covid 19 is indeed more lethal to older people.
 [/FullWidth]
@@ -259,6 +261,7 @@ Overview:
   [li][a href:' https://ourworldindata.org/covid-cases']COVID-19 Dataset from Our World Data[/a][/li]
   [li][a href:' https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mrna.html']What do you need to know about mRNA vaccines[/a][/li]
   [li][a href:' https://www.hhs.gov/immunization/basics/types/index.html']What do you need to know about inactivated vaccines[/a][/li]
+  [li][a href:' https://www.marshallcenter.org/en/event/covid-19-and-great-power-competition-virtual-outreach-seminar']Header background image[/a][/li]
 [/ol]
 # About Us
 This project was created for the course CSE412.

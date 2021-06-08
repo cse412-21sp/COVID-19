@@ -6,7 +6,7 @@
   subtitle:"An exploration of COVID-19 data of the world"
   author:"Ziyi Bai, Haley Chiang, Winni Li, Mingyu Zhong"
   date:"May 21, 2021"
-  background:"rgb(160,10,10)"
+  background: 'url(./static/images/banner.png)'
   color:"#ffffff"
 /]
 
@@ -20,9 +20,9 @@
 [/div]
 
 [FullWidth id:'Overview' className:'content overview']
-
+[var name:"navar" value:"" /]
 # Overview
-Through the visualizations of the COVID data, we will analyze the importance and the impact of COVID in different regions around the world.
+Through the visualizations of the COVID data, we will analyze the importance and the impact of COVID in different regions around the world. Within the past two years, daily routine is changed by the COVID 19 world wide. 
 
 [div className:'OverviewParagraph']
 ## COVID New Confirmed Cases

@@ -1290,7 +1290,7 @@ img {
   line-height: 2.5;
   /*border: 1px black;*/
   position: fixed;
-  top: 45%;  /* 0px from the top */
+  bottom: 3%;  /* 0px from the top */
   left: 0; /* 0px from the left */
   /* width: 100%; same as parent, useful for spanning the page */
   padding-top: 1%;

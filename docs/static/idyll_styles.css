@@ -1276,50 +1276,60 @@ img {
 
 
 .content{
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   padding-left: 15%;
   padding-right: 15%;
+  line-height: 2;
+  font-family: Sans-serif;
   font-size: larger;
 }
 
+h1 {
+  margin-bottom: 15px;
+  padding-top: 0px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
 .menu{
-  font-size: 25px;
+  font-size: 15px;
   font-family: Sans-serif;
-  font-weight: 700;
-  line-height: 2.5;
+  font-weight: 300;
+  line-height: 1.8;
   /*border: 1px black;*/
   position: fixed;
-  bottom: 3%;  /* 0px from the top */
-  left: 0; /* 0px from the left */
+  
+  top: 5%;  /* 0px from the top */
+  right: 0; /* 0px from the left */
   /* width: 100%; same as parent, useful for spanning the page */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
   padding-right: 1%;
-  margin-left: 2%;
+  margin-right: 2%;
+  text-align: right;
 }
 
 a:link {
-  color: rgb(184, 19, 19);
+  color: grey;
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(180, 79, 48);
+  color: grey;
   text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
   text-decoration: none;
-  color: rgba(180, 179, 180, 0.945);
+  color: lightgrey;
 }
 
-
-.overview{
-  
-}
 
 .lightgraybg{
   background: lightgray;
@@ -1351,6 +1361,10 @@ a:hover {
 }
 
 .partd{
+}
+
+.overview_graph {
+  padding-bottom: 100px;
 }
 
 .conclusion{

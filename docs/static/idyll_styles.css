@@ -1351,6 +1351,25 @@ h2 {
   text-indent: 0px;
 }
 
+.endpart{
+  text-indent: 0px;
+}
+
+.endpart a:link{
+  color: grey;  
+  text-decoration: none;
+}
+
+.endpart a:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+.endpart a:hover {
+  text-decoration: none;
+  color: darkgrey;
+}
+
 .menu{
   font-size: 15px;
   font-family: Sans-serif;

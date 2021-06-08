@@ -20,7 +20,7 @@
 
 [FullWidth id:'Overview' className:'content overview']
 # Overview
- Within the past two years, daily routine is changed by the COVID 19 world wide. Through the visualizations of the COVID data, we will analyze the importance and the impact of COVID in different regions around the world.
+Within the past two years, a daily routine is changed by the COVID 19 worldwide. Through the visualizations of the COVID data, we will analyze the importance and impact of COVID in different regions around the world. Within the past two years, the daily routine is changed by the COVID 19 worldwide. The pandemic has spread around the world at a very fast and unstoppable rate leading to severe illness threats to people of different races and ages. Economy, market, education, hospitalization, work have all been heavily affected. As a result, countless people’s lifestyles were changed dramatically. We began to do all the things remotely, we work from home, we study from home and we shop from home. This is definitely a situation that has never happened throughout history which makes it more attractive and essential for us to further explore this topic.
 
 [div className:'OverviewParagraph']
 ## COVID New Confirmed Cases
@@ -256,6 +256,8 @@ Among the states with a high population base, Massachusetts has the highest perc
   [li][a href:'https://observablehq.com/@d3/parallel-coordinates']Parallel Coordinates example on Observable[/a][/li]
   [li][a href:' https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mrna.html']What do you need to know about mRNA vaccines[/a][/li]
   [li][a href:' https://www.hhs.gov/immunization/basics/types/index.html']What do you need to know about inactivated vaccines[/a][/li]
+  [li][a href:' https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Sex-and-Age/9bhg-hcku']Covid 19 Deaths By Ages[/a][/li]
+  [li][a href:' https://www.kaggle.com/imdevskp/sars-outbreak-2003-complete-dataset']Sars 2003 outbreak dataset[/a][/li]
   [li][a href:' https://www.marshallcenter.org/en/event/covid-19-and-great-power-competition-virtual-outreach-seminar']Header background image[/a][/li]
 [/ol]
 

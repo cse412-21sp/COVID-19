@@ -123,11 +123,11 @@ width:"100%" height:"600"/]
 width:"100%" height:"600"/]
 [/div]
 [/div]
-Next seesion will explore some potential correlated factors that might explain the difference in the COVID-19 outcomes around the world.
 [/FullWidth]
 
-
-
+[FullWidth className:'content parta parta_end']
+Next seesion will explore some potential correlated factors that might explain the difference in the COVID-19 outcomes around the world.
+[/FullWidth]
 
 
 [FullWidth id:'Correlation' className:'content partc']
@@ -269,8 +269,9 @@ Among the states with a high population base, Massachusetts has the highest perc
 
 # About Us
 The authors are Ziyi Bai, Haley Chiang, Winni Li, Mingyu Zhong.
-This project was created for CSE412: Intro to Data Visualization, at the Paul G. Allen School of Computer Science & Engineering within the University of Washington.
 
 Thanks to our professor Jane Hoffswell and our teaching assistants.
+
+This project was created for CSE412: Intro to Data Visualization, at the Paul G. Allen School of Computer Science & Engineering within the University of Washington.
 [/FullWidth]
 

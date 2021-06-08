@@ -122,8 +122,20 @@ From observing the two line chart which represents the relationship between deve
 # Factors related to COVID-19 outcomes
 From the graphs above, we can see that there is a clear distinction between the number of confirmed cases and death cases for different region. 
 Take Gross Domestic Product(GDP) per capita, Population density, Human Development Index (HDI), life expectancy, and the number of people who 
-are aged 65 or older as possible social factors that might affect the outcome of COVID-19 cases.
+are aged 65 or older as possible social factors that might affect the outcome of COVID-19 cases, we will specifically focus on these dimensions 
+in our exploration.
 
+Try to select the desired dimension from the drop down menu to encode the color. 
+You can also filter the expected line by brushing the interval on each dimension axis!
+
+// probably would be better to display as a floated graph
+[div className:'partcgraph']
+[ObservableEmbed link:"https://observablehq.com/embed/@patronum/brushable-parallel-coordinates?cells=viewof+keyz%2Clegend%2Cviewof+selection" width:"100%" height:"831"/]
+[/div]
+
+// refereces 
+Data source reference to [COVID-19 dataset](https://ourworldindata.org/covid-cases) from Our world in data in our visualization. Data was normalized. 
+The visualization design above reference to Parallel Coordinates Visualization by Mike Bostock in Observable notebook. 
 
 //
 // visualization design rationale
@@ -151,17 +163,14 @@ Generally, as the number of people who are aged 65 or older increases, the numbe
 have the number of people who are aged 65 or older 1.5 standard deviation above the mean with the number of death below the mean have GDP above the mean.
 
 ### Vaccinations
-Observing the location that have total vaccinations 0.5 standard deviation above the mean, we notice that most of the locations have GDP, HDI and life expectancy 
+Observing the location that have total vaccinations 0.5 standard deviation above the mean, we notice that most of the locations have GDP, HDI, and life expectancy 
 above the mean. Some of those locations might have relatively high number of total cases, but most of them have relatively low number of total deaths.
 
-// probably would be better to display as a floated graph
-[div className:'partcgraph']
-[ObservableEmbed link:"https://observablehq.com/embed/@patronum/brushable-parallel-coordinates?cells=viewof+keyz%2Clegend%2Cviewof+selection" width:"100%" height:"831"/]
-[/div]
+### Summary
+From the visualization, we did not observe a clear pattern between each dimension and the COVID outcome. 
+This implies that these factors alone do not have a significant impact on COVID-19 cases. 
+The disparities in COVID cases might be a synergistic effect of multiple social factors. Further research is needed.
 
-// refereces 
-Data source reference to [COVID-19 dataset](https://ourworldindata.org/covid-cases) from Our world in data in our visualization. Data was normalized. 
-The visualization design above reference to Parallel Coordinates Visualization by Mike Bostock in Observable notebook. 
 
 // delete start
 // Since Gross Domestic Product(GDP) per capita and Human Development Index (HDI) are usually used to measure 
@@ -236,6 +245,16 @@ Among the states with high population base, Massachusetts has the highest percen
 
 [/FullWidth]
 
+<<<<<<< HEAD
+[FullWidth className:'content endpart']
+# Sources
+
+# About Us
+This project was created for the course CSE412.
+
+[/FullWidth]
+
+=======
 [FullWidth id:'Conclusion' className:'content conclusion']
 #Conclusion
 
@@ -252,3 +271,4 @@ Overview:
 This project was created for the course CSE412.
 
 [/FullWidth]
+>>>>>>> e6d255a32640a00748d340fbd56f8f770491f228

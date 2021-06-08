@@ -1279,6 +1279,9 @@ img {
   box-sizing: border-box; 
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 .flex-container { /* my flexbox container class */
   text-indent: 0px;

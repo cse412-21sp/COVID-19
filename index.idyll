@@ -10,55 +10,21 @@
   color:"#ffffff"
 /]
 
-[FullWidth className:'content overview']
-
-
-# Overview
-Through the visualizations of the COVID data, we will analyze the importance and the impact of COVID in different regions around the world.
-
-# Covid Cases & Death Graphs (New & Total)
-The data below is the number of confirmed cases and death cases. 
-
-// [div className:'partbCase']
-// [Float position:"left" className:'partbWord1' width:"35%"]
-//
-//
-//
-//
-Description text for Cases Description text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for Cases
-// [/Float]
-// [Float position:"right" className:'partbGraph1' width:"65%"]
-[TableauEmbed className:'overview_graph' link:"https://public.tableau.com/views/DeathsGraph/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" 
-width:"1500" height:"1000"/]
-
-
-[TableauEmbed className:'overview_graph' link:"https://public.tableau.com/views/FinalProjectSection2/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" 
-width:"1004" height:"832"/]
-// [/Float]
-
-
-
-
-[div className:'partbDeath']
+[div className:'menu' ]
+  [div] [a href:'#Overview']Overview[/a] [/div]
+  [div] [a href:'#Effect']Effect[/a] [/div]
+  [div] [a href:'#Correlation']Correlation[/a] [/div]
+  [div] [a href:'#Vaccination']Vaccination[/a] [/div]
+  [div] [a href:'#Conclusion']Conclusion[/a] [/div]
+  [div] [a href:'#Sources']Sources[/a] [/div]
 [/div]
 
-// [Float position:"right" className:'partbGraph2' width:"65%"]
-[TableauEmbed link:"https://public.tableau.com/views/FinalProjectSection2Death/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link" 
-width:"1004" height:"832"/]
-// [/Float]
-// [Float position:"left" className:'partbWord2' width:"35%"]
-//
-//
-//
-//
-Description text for Cases Description text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for CasesDescription text for Cases
-// [/Float]
-// [/div]
+[FullWidth id:'Overview' className:'content overview']
 
 [/FullWidth]
 
 
-[FullWidth className:'content parta']
+[FullWidth id:'Effect' className:'content parta']
 # Why should we care about COVID and its prevention Effect of the COVID?
 
   COVID-19 has been a worldwide pandemic, people took it as an emergency when it happened in Winter 2020. Each person infected with seasonal influenza may infect approximately 1.3 other people. For SARS-CoV-2 (the virus that causes Covid-19), it is estimated to infect about three times as many people (estimated at 2 to 4). This number is called the reproductive factor, or “R0,” and you may see it referred to that way. This will lead to many, many more cases very quickly, and may overwhelm an already burdened medical system.
@@ -95,10 +61,11 @@ From observing the two line chart which represents the relationship between deve
 [/FullWidth]
 
 [FullWidth className:'content partb']
+
 [/FullWidth]
 
 
-[FullWidth className:'content partc']
+[FullWidth id:'Correlation' className:'content partc']
 # Factors related to COVID-19 outcomes
 From the graphs above, we can see that there is a clear distinction between the number of confirmed cases and death cases for different region. 
 Take Gross Domestic Product(GDP) per capita, Population density, Human Development Index (HDI), life expectancy, and the number of people who 
@@ -168,7 +135,9 @@ The visualization design above reference to Parallel Coordinates Visualization b
 [/FullWidth]
 
 
-[FullWidth className:'content partd']
+
+
+[FullWidth id:'Vaccination' className:'content partd']
 # Vaccination Data Analysis
 
 ## Type of Vaccination
@@ -214,9 +183,18 @@ Among the states with high population base, Massachusetts has the highest percen
 
 [/FullWidth]
 
-[FullWidth className:'content endpart']
-# Sources
+[FullWidth id:'Conclusion' className:'content conclusion']
+#Conclusion
 
+[/FullWidth]
+
+[FullWidth id:'Sources' className:'content endpart']
+# Sources
+Overview:
+[ol]
+  [li][a href:' https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/herd-immunity-and-coronavirus/art-20486808#:~:text=Herd%20immunity%20occurs%20when%20a,just%20those%20who%20are%20immune.']Herd immunity and COVID-19 (coronavirus): What you need to know[/a][/li]
+  [li][a href:' https://www.nature.com/articles/d41586-021-00728-2#:~:text=Most%20estimates%20had%20placed%20the,past%20exposure%20to%20the%20virus.']Five reasons why COVID herd immunity is probably impossible[/a][/li]
+[/ol]
 # About Us
 This project was created for the course CSE412.
 
